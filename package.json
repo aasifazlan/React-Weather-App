@@ -1,0 +1,28 @@
+{
+  "name": "react-weather",
+  "version": "1.0.0",
+  "description": "It's a react weather app",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "weather"
+  ],
+  "author": "Aasif Azlan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "postcss": "^8.4.41",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1"
+  }
+}
